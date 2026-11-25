@@ -2,7 +2,7 @@
 
 Disciplina: Internet das Coisas - Profª Salete Farias
 
-Aluno(a): **Jorge Lucas da Silva Gomes**
+Aluno: **Jorge Lucas da Silva Gomes**
 
 > Projeto derivado do trabalho original de [Franciele Alves](https://github.com/frnclz/IOT---SMIEPT), com melhorias de confiabilidade e segurança.
 
