@@ -255,7 +255,7 @@ Riscos identificados e como foram tratados:
 │   └── js/app.js
 ├── docs/
 │   ├── estudo_dirigido_confiabilidade_seguranca_iot.pdf
-│   └── img/            <- fotos e prints
+│   └── img/           
 ├── .gitignore
 └── README.md
 ```
