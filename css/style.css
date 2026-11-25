@@ -1,0 +1,149 @@
+body {
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #d5e5f4, #a6e0ff);
+    }
+
+    .title,
+    .subtitle {
+      color: #2c3e50;
+    }
+
+    #alerta-ponteInterditada {
+      font-weight: bold;
+      text-align: center;
+      animation: piscar 1s infinite;
+      border-radius: 12px;
+    }
+
+    @keyframes piscar {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.5;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      color: #2c3e50;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .sensor-title {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .sensor-value {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .ok {
+      color: #2ecc71;
+    }
+
+    .alerta {
+      color: #e74c3c;
+    }
+
+    .box {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    #status {
+      font-weight: bold;
+    }
+
+    .status-ok {
+      color: #2ecc71;
+    }
+
+    .status-erro {
+      color: #e74c3c;
+    }
+
+    .container {
+      max-width: 1400px;
+    }
+
+    .sensor-card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 180px;
+    }
+
+    #btn-alerta:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* ===== v3: níveis de alerta, dispositivo, gráfico e eventos ===== */
+    .atencao {
+      color: #f39c12;
+    }
+
+    .falha {
+      color: #7f8c8d;
+    }
+
+    .status-aviso {
+      color: #f39c12;
+    }
+
+    #status-dispositivo {
+      font-weight: bold;
+      margin-top: 0.25rem;
+    }
+
+    /* dados antigos (dispositivo offline) ficam apagados */
+    .desatualizado {
+      opacity: 0.45;
+      transition: opacity 0.3s;
+    }
+
+    .grafico-container {
+      position: relative;
+      height: 320px;
+    }
+
+    #lista-eventos {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      max-height: 260px;
+      overflow-y: auto;
+    }
+
+    #lista-eventos li {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid #eef2f6;
+      color: #2c3e50;
+    }
+
+    #lista-eventos .quando {
+      color: #7f8c8d;
+      font-size: 0.85rem;
+      margin-right: 0.5rem;
+    }
