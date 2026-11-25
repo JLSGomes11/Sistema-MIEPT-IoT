@@ -158,7 +158,7 @@ Após a inicialização:
 <!-- TROCAR: coloque a imagem do circuito em docs/img/circuito.png -->
 ![Circuito do projeto](docs/img/circuito.png)
 
-Acesse o [circuito no Wokwi](COLE_O_LINK_DO_WOKWI_AQUI) para visualizar a simulação do projeto.
+Acesse o [circuito no Wokwi](link_wokwi) para visualizar a simulação do projeto.
 
 ## Dashboard
 
@@ -175,7 +175,7 @@ Acesse o [circuito no Wokwi](COLE_O_LINK_DO_WOKWI_AQUI) para visualizar a simula
 
 ![Gráfico e registro de eventos](docs/img/dashboard-historico.png)
 
-Acesse o [dashboard do projeto](COLE_O_LINK_DO_VERCEL_AQUI) para visualizar em tempo real.
+Acesse o [dashboard do projeto](https://dashboard-miept-iot.vercel.app) para visualizar em tempo real.
 
 ### Recursos do dashboard
 
@@ -195,7 +195,7 @@ Acesse o [dashboard do projeto](COLE_O_LINK_DO_VERCEL_AQUI) para visualizar em t
 
 ## Vídeo do Funcionamento do Sistema
 
-[Assistir ao vídeo](COLE_O_LINK_DO_VIDEO_AQUI)
+[Assistir ao vídeo](link_videoI)
 
 ## Confiabilidade e Segurança
 
